@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #2874f0;
+    width: 100%;
+    height: 56px;
+}
+.header-left{
+    width: 20%;
+    text-align:left;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.header-left a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.header-left-p a{
+    font-size: 12px;
+    letter-spacing:1.5px;
+}
+.header-left-p span{
+    color: yellow;
+    font-size: 12px;
+    letter-spacing: 1.5pxs;
+    font-weight:bolder;
+}
+nav{
+    display: flex;
+    align-self: flex-start;
+    background-color: #2874f0;
+    width: 70%;
+    height: 40px;
+    margin-top:  20px;
+    margin-left:20px ;
+    padding:10px ;
+    
+
+}
+.container{
+    height: 500px;
+    width: 100%;
+    border: black;
+    display: flex;
+    flex-direction:row;
+    padding-top:20px ;
+    background-color:whitesmoke;
+    
+}
+.item{
+    margin: 10px;
+    padding-left:  10px;
+    width:40%; 
+    height: 200px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-evenly;
+    line-height:30px ;
+}
+input{
+    padding-right:180px ;
+    padding-bottom:30px ;
+    padding-top:10px ;
+    border:none ;
+    align-self: center;
+    font-size: large;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:10px ;
+    color: blue;
+    
+}
+.item2{
+    justify-content: space-evenly;
+    line-height:30px ;
+    
+}
+.advantages{
+    color: gray;
+    
+}
+.item1{
+    line-height:30px ;
+    padding-top:20px ;
+    font-size: medium;
+}
+.item3{
+    padding:0px ;
+    padding-left:150px;
+    line-height:20px;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    
+}
+.products{
+    padding-left:30px;
+    
+}
+footer{
+    padding-left:40px ;
+    border: gray;
+    display: flex;
+    padding-bottom: 40px;
+    line-height: 0%;
+}
